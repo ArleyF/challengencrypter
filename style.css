@@ -17,6 +17,7 @@ main{
     display: flex;
     width: 80%; /* establece un ancho para el elemento main */
     margin: 0 auto;
+    padding: 20px;
     
 }
 
@@ -107,4 +108,21 @@ main{
 .informacion{
     color: #495057;
     font-size: 18px;
+}
+
+.container{
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.icono{
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+}
+
+.icono:hover{
+    width: 65px;
+    height: 65px;    
 }
